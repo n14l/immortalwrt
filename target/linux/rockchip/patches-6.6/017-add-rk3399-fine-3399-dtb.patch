@@ -10,7 +10,7 @@
  dtb-$(CONFIG_ARCH_ROCKCHIP) += rk3566-anbernic-rg353ps.dtb
 --- /dev/null
 +++ b/arch/arm64/boot/dts/rockchip/rk3399-fine-3399.dts
-@@ -0,0 +1,789 @@
+@@ -0,0 +1,797 @@
 +// SPDX-License-Identifier: (GPL-2.0+ OR MIT)
 +
 +/dts-v1/;
@@ -798,5 +798,13 @@
 +};
 +
 +&vopl_mmu {
++	status = "okay";
++};
++
++&vpu {
++	status = "okay";
++};
++
++&vpu_mmu {
 +	status = "okay";
 +};
