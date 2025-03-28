@@ -19,7 +19,7 @@
 #include <linux/regulator/consumer.h>
 #include <linux/rwsem.h>
 #include <linux/suspend.h>
-
+#include <linux/rockchip/rockchip_sip.h>
 #include <soc/rockchip/rockchip_sip.h>
 
 #define DTS_PAR_OFFSET		(4096)
